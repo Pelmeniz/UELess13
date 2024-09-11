@@ -2,10 +2,12 @@
 //
 
 #include <iostream>
+#include "Helpers.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int result = sumsq(2, 3);
+    std::cout << "Result = " << result << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
